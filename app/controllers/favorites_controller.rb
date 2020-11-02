@@ -14,7 +14,4 @@ class FavoritesController < ApplicationController
     redirect_to current_user
   end
   
-  def likes
-    current_user.fav_microposts
-  end
 end
